@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit
 
 extension TestHelper {
@@ -14,3 +15,4 @@ extension TestHelper {
     return image!
   }
 }
+#endif

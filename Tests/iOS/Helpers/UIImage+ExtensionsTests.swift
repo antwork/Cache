@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit
 
 extension UIImage {
@@ -24,3 +25,4 @@ extension UIImage {
     return drawnImage!.cgImage!.dataProvider!.data! as Data
   }
 }
+#endif
